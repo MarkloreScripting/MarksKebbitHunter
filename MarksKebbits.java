@@ -1,6 +1,3 @@
-/**
- * 
- */
 package MarksKebbitHunter;
 
 import java.util.ArrayList;
@@ -51,10 +48,8 @@ public class MarksKebbits extends PollingScript {
 			object = 66467;
 		} else if(setting == 12) {
 			object = 66468;
-		} else if(setting >= 1073740000 && setting <= 1073750000) {//1073741923
+		} else if(setting >= 1073740000 && setting <= 1073750000) {
 			object = 66469;
-		/*} else if(setting == 1073741916) {
-			object = 66469;*/
 		} else if(setting == 1056) {
 			object = 66470;
 		} else if(setting == 1028) {
@@ -69,16 +64,12 @@ public class MarksKebbits extends PollingScript {
 			object = 66471;
 		} else if(setting == 1073848512) {
 			object = 66471;
-		} else if(setting >= 1073800000 && setting <= 1073840000) {//1073809440
+		} else if(setting >= 1073800000 && setting <= 1073840000) {
 			object = 66472;
 		} else if(setting == 1073809412) {
 			object = 66472;
 		} else if(setting == 32960) {
 			object = 66472;
-		/*} else if(setting == 1073819840) {
-			object = 66472;*/
-		} else if(setting == 1476395235) {
-			object = 66496;
 		} else if(setting == 1476413472) {
 			object = 66496;
 		} else if(setting == 1476413444) {
@@ -102,8 +93,6 @@ public class MarksKebbits extends PollingScript {
 		} else if(setting == 0) {
 			object = 66473;
 		}
-		System.out.println(setting);
-		System.out.println("OBJECTKebbit: "+object);
 	}
 
 }
